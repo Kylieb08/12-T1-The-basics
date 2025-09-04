@@ -19,6 +19,9 @@
             //Replace variables
             string sayHello = "Hello, World!";
 
+            //Search String variables
+            string songLyrics = "You say goodbye, and I say hello";
+
             //Friends
             Console.WriteLine("Hello, World!");
             Console.WriteLine("Hello " + aFriend);
@@ -37,6 +40,13 @@
             Console.WriteLine(sayHello);
             Console.WriteLine(sayHello.ToUpper());
             Console.WriteLine(sayHello.ToLower());
+
+            //Search String
+            Console.WriteLine(songLyrics.StartsWith("goodbye"));
+            Console.WriteLine(songLyrics.StartsWith("You"));
+
+            Console.WriteLine(songLyrics.EndsWith("hello"));
+            Console.WriteLine(songLyrics.EndsWith("goodbye"));
         }
     }
 }
