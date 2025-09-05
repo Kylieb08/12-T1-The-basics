@@ -66,5 +66,27 @@
  * Console.WriteLine(passPhrase.Length); */
 
 /* 3. What does the Trim() method do? Why might this be useful?
- * The Trim() method removes spaces before and after a string. This is useful because sometimes the spaces go unnoticed
- * and it is easier to remove them than to find them. */
+ * The Trim() method removes spaces before and after a string. This is useful because sometimes the spaces 
+ * go unnoticed and it is easier to remove them than to find them. */
+
+/* 4. Methods such as Trim(), ToUpper(), ToLower() and Replace() do not actually
+ * change the original string. Instead they return a new string. What do you need to add to the
+ * following line of code so that schoolCheer will be all caps when it is printed? (Hint: you will need
+ * to overwrite the existing string with the new version returned by the method)
+ * schoolCheer = "programmers are the best!";
+ * schoolCheer = schoolCheer.ToUpper();
+ * Console.Writeline(schoolCheer); */
+
+/* 5. Attempt the challenge on step 5 of the Hello World tutorial by using StartsWith() and
+ * EndsWith(). Put the lines of code you used here:
+ * Console.WriteLine(songLyrics.StartsWith("goodbye"));
+ * Console.WriteLine(songLyrics.StartsWith("You"));
+ * Console.WriteLine(songLyrics.EndsWith("hello"));
+ * Console.WriteLine(songLyrics.EndsWith("goodbye")); */
+
+/* 6. What is the difference between Console.WriteLine() and Console.Write()?
+ * Console.WriteLine() writes the text and then moves to the next line. Console.Write() writes the text 
+ * and stays on the same line. */
+
+
+
